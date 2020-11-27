@@ -1,0 +1,57 @@
+body {
+	background: #f8f8fa;
+	font-family: 'Open Sans', sans-serif;
+	color: #73767c;
+}
+
+button {
+	background: #ff4330;
+	border: none;
+	border-radius: 25px;
+	padding: 5px;
+	color: white;
+	width: 200px;
+	transition-duration: 0.4s;
+}
+
+button:hover {
+	color: #ff4330;
+	background: #f8f8fa;
+	border: 1px solid #ff4330;
+	box-sizing: border-box;
+}
+
+h3 {
+	color: #30c9e9;
+}
+
+.title {
+	text-align: center;
+	background: #30c9e9;
+	height: 450px;
+	padding-top: 90px;
+	color: white;
+}
+
+.description {
+	margin: 30px auto;
+	font-style: italic;
+	width: 30%;
+}
+
+.analogy {
+	padding: 20px;
+}
+
+.application {
+	padding: 20px;
+}
+
+.creators {
+	background: #3c4a4d;
+	color: #f8f8fa;
+	padding: 20px;
+}
+
+
+
