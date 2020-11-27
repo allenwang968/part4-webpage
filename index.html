@@ -17,25 +17,47 @@
 	<div class="title">
 		<h1>Polymorphism Visualiser</h1>
 		<div class="description">
-			<p>Using analogies and visualisation techniques to teach students polymorphism</p>			
+			<p>Application that uses analogies and visualisation techniques to teach students polymorphism</p>	
+			<p>Winner of 2020 Web Tools project</p>		
 		</div>
 		<button onclick="location.href='google.com'" type="button">Go to Application</button>
 	</div>
-	
-	<div class="analogy">
+
+	<div class="content">
 		<h3>Analogy</h3>
 		<p>a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their</p>
 	</div>
 
-	<div class="application">
+	<div class="content">
 		<h3>Application</h3>
-		<p>a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their</p>
+		<p>Polymorphism Visualiser uses analogies and visualisation techniques to present polymorphism to students. The application is split into modules, with each subsequent one introducing new polymorphism concepts. The targeted concepts were derived from the common misconceptions students have with polymorphism found during research phase. Within each module, students are presented with a tutorial session which teaches the concepts as well as how the analogy applies. Students are then required to answer several quiz questions about the topics covered in that module. The analogy and visual components are integrated in the questions which students are encouraged to interact with to aid their understanding and performance.</p>
+		<div class="subsections">
+			<div class="section">
+				<h4>Interface</h4>
+				<img src="img/interface.png" height="300">
+				<p>The user interface is kept as simple as possible. The components representing the variable and objects are placed on opposite sides of the screen with the interactive area in the middle where students can drag and drop the components into. Questions appear at the top of the screen with their respective code snippets appearing at the bottom. There is also an option for the student to view the inheritance tree for the classes present in the module should they need it.</p>
+			</div>
+
+			<div class="section">
+				<h4>Modules</h4>
+				<img src="img/module1vsmodule2.png" height= "300">
+				<p>There are currently three modules available in Polymorphism Visualiser. The notable difference between these modules is the level of inheritance involved, with the first module containing no inheritance while the second module containing only single level inheritance and so on. While these modules are all quite similar, each new level of inheritance introduces new concepts such as the variable type determining which methods can be called even if they are available to the object type. This particular concept is an example of one that does not apply to Module 1 as there is no inheritance, but appears in Module 2 onwards. 
+				As a result, each module contains new questions for the students to solve. Even for questions present in a previous module, they will <i>inherently</i> become more complex as inheritance is introduced.</p>
+				<!-- <p>Most of the future work planned for Polymorphism Visualiser involve expanding the tool to accommodate further polymorphism concepts such as method overriding and type casting.</p> -->
+			</div>
+
+			<div class="section">
+				<h4>Questions</h4>
+				<p>Questions are presented in two parts: the actual question and the corresponding code snippet. There are several types of questions such as asking the student to replicate a code snippet using the visual components or asking whether a snippet is valid, requiring them to answer true or false. For the latter, a student cannot answer the question straight away without replicating the scenario first and applying their understanding of the analogy to solve it. The code snippets also provide visual feedback whenever the student places a component in the activity area to aid them when answering questions. The questions are designed this way to provide students with a way to apply the analogy. The emphasis on code snippets hopes to help students to have a smooth transition from learning the concepts to actually programming it.</p>
+			</div>
+		</div>
 	</div>
 
 
 	<div class="creators">
 		<h3>Creators</h3>
 		<p>a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their</p>
+
 	</div>
 
 
